@@ -51,16 +51,3 @@ Feature: Accounts  Validation
    #Different currency
       |     500        |      2TJCXS43V62BJCC6JINLBWVFF  |     QQT0W       |  JPY        |             |  QQT0U      |   kbu   |
 
-#Scenario: : Validation of Funds Transfer for valid ToAccount
-#
-#Given : I have a FromAccount and ToAccount in SiteId='kbu'
-#When : I request a funds transfer using details SiteId ,ExternalServiceId,SiteId, FromAccount, ToAccount, Amount
-#Then : I validate ToAccount for successful response
-#
-
-#
-#Scenario: : Validation for FromAccount and ToAccount for MasterAccount
-#
-#  Given: I have a FromAccount and ToAccount
-#  When : I request for Funds Transfer using details SiteId ,ExternalServiceId,SiteId, FromAccount, ToAccount, Amount
-#  Then : I validate for FromAccount and ToAccount  for MasterAccount with message<FUNDS_TRANSFER_FAILED_MASTER_ACCOUNT_NOT_PRESENT>
